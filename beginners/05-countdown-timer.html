@@ -20,8 +20,55 @@
         <a href="06-fibonacci-sequence-generator.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">05. Countdown Timer <small>Beginner Projects</small></h1>
-      
-      
+      <p>
+        To build a simple, beginner-friendly Countdown Timer application in Python, here are the steps and ideas to
+        guide you:
+      </p>
+      <h3 id="1-basic-features-">1. <strong>Basic Features</strong></h3>
+      <ul>
+        <li><strong>Input time</strong>: Let users input the time in seconds, minutes, or both.</li>
+        <li><strong>Start the countdown</strong>: Once the time is set, start counting down.</li>
+        <li>
+          <strong>Display time left</strong>: Continuously show the remaining time (formatted as minutes and seconds).
+        </li>
+        <li>
+          <strong>Sound a notification</strong>: Optionally, you can add a beep or text message when the time is up.
+        </li>
+      </ul>
+      <h3 id="2-workflow-">2. <strong>Workflow</strong></h3>
+      <ul>
+        <li><strong>User Input</strong>: Ask the user to input the countdown time (e.g., in minutes or seconds).</li>
+        <li>
+          <strong>Time Conversion</strong>: Convert the input to seconds for simplicity, and break it into minutes and
+          seconds for display.
+        </li>
+        <li>
+          <strong>Update Display</strong>: Use a loop to update the timer every second, reducing the total time and
+          showing the updated time on the console.
+        </li>
+        <li>
+          <strong>Timer End</strong>: When the countdown reaches zero, print a message like &quot;Time’s up!&quot; or
+          play a sound.
+        </li>
+      </ul>
+      <h3 id="3-sleep-function-">3. <strong>Sleep Function</strong></h3>
+      <ul>
+        <li>
+          Use Python’s <code>time.sleep()</code> function to pause the program for one second between each countdown
+          tick.
+        </li>
+      </ul>
+      <h3 id="4-basic-error-handling-">4. <strong>Basic Error Handling</strong></h3>
+      <ul>
+        <li>Handle cases like users entering non-numeric inputs or negative numbers.</li>
+        <li>Ensure the timer doesn’t accept invalid or unrealistic values (e.g., negative seconds).</li>
+      </ul>
+      <h3 id="5-optional-enhancements-">5. <strong>Optional Enhancements</strong></h3>
+      <ul>
+        <li><strong>Pause/Resume feature</strong>: Allow users to pause the timer and resume it later.</li>
+        <li><strong>Customize Notifications</strong>: Let users pick a message or sound when the timer finishes.</li>
+      </ul>
+      <p>This project will give you experience with loops, time handling, user input, and basic control structures.</p>
     </div>
   </body>
 </html>

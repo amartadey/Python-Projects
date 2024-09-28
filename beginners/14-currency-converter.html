@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -20,6 +21,207 @@
         <a href="15-hangman-game.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">14. Currency Converter <small>Beginner Projects</small></h1>
+
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li>
+          <strong>Input</strong>: Allow the user to input an amount of money and specify the source and target
+          currencies.
+        </li>
+        <li>
+          <strong>Conversion Logic</strong>: Implement logic to convert between currencies using predefined exchange
+          rates.
+        </li>
+        <li><strong>Output</strong>: Display the converted amount in the target currency.</li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>User Input</strong>:</p>
+          <ul>
+            <li>Ask the user to enter the amount of money they wish to convert.</li>
+            <li>Prompt the user to specify the source currency (e.g., USD, EUR).</li>
+            <li>Ask the user for the target currency they want to convert to.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Conversion Logic</strong>:</p>
+          <ul>
+            <li>Use predefined exchange rates between the supported currencies.</li>
+            <li>Ensure that the correct conversion rate is applied based on the source and target currencies.</li>
+            <li>Multiply the input amount by the appropriate conversion rate.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Display Result</strong>:</p>
+          <ul>
+            <li>
+              Show the converted amount in the target currency to the user in a clear and formatted way, indicating both
+              the source and target currencies.
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <strong>Input Validation</strong>:
+          <ul>
+            <li>Ensure the user enters a valid numeric amount for conversion.</li>
+            <li>Validate that the source and target currencies are supported by the program.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Feedback</strong>:
+          <ul>
+            <li>
+              Provide informative error messages if the user enters invalid currency codes or non-numeric values for the
+              amount.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Live Exchange Rates</strong>:</p>
+          <ul>
+            <li>Integrate an API to fetch real-time currency exchange rates (for more advanced users).</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Multiple Conversions</strong>:</p>
+          <ul>
+            <li>Allow the user to convert multiple amounts or currencies in a single session.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Conversion History</strong>:</p>
+          <ul>
+            <li>Keep track of all conversions made during the session and display them at the end.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Exit Option</strong>:</p>
+          <ul>
+            <li>Offer the user an option to exit the program when they’re finished converting currencies.</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will give you practice with:</p>
+      <ul>
+        <li>Working with numerical data</li>
+        <li>Managing user input and string manipulation</li>
+        <li>Handling basic logic for converting between units</li>
+        <li>(Optional) Integrating external APIs for live data fetching</li>
+      </ul>
+      <hr />
+      <p>&nbsp;</p>
+      <p>
+        Here are a few free APIs you can use for your <strong>Currency Converter</strong> project to fetch real-time
+        exchange rates:
+      </p>
+      <h3>1. <strong>Open Exchange Rates</strong></h3>
+      <ul>
+        <li>
+          <strong>API URL</strong>:
+          <a href="https://openexchangerates.org/" target="_new" rel="noopener">https://openexchangerates.org/</a>
+        </li>
+        <li>
+          <strong>Free Plan</strong>: Provides access to real-time exchange rates for a limited number of currencies
+          (USD base currency).
+        </li>
+        <li>
+          <strong>Key Features</strong>:
+          <ul>
+            <li>Free tier allows 1,000 API requests per month.</li>
+            <li>Provides exchange rates for over 170 currencies.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Documentation</strong>: <a target="_new" rel="noopener">https://docs.openexchangerates.org/docs</a>
+        </li>
+      </ul>
+      <h3>2. <strong>CurrencyLayer</strong></h3>
+      <ul>
+        <li>
+          <strong>API URL</strong>:
+          <a href="https://currencylayer.com/" target="_new" rel="noopener">https://currencylayer.com/</a>
+        </li>
+        <li><strong>Free Plan</strong>: Provides access to real-time exchange rates with USD as the base currency.</li>
+        <li>
+          <strong>Key Features</strong>:
+          <ul>
+            <li>Free tier allows 250 API requests per month.</li>
+            <li>Supports historical and real-time currency data.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Documentation</strong>: <a target="_new" rel="noopener">https://currencylayer.com/documentation</a>
+        </li>
+      </ul>
+      <h3>3. <strong>Exchangerate.host</strong></h3>
+      <ul>
+        <li>
+          <strong>API URL</strong>:
+          <a href="https://exchangerate.host/" target="_new" rel="noopener">https://exchangerate.host/</a>
+        </li>
+        <li><strong>Free Plan</strong>: Completely free and offers real-time foreign exchange rate data.</li>
+        <li>
+          <strong>Key Features</strong>:
+          <ul>
+            <li>Free API with no usage limits.</li>
+            <li>Supports conversion for over 150 currencies.</li>
+            <li>Provides historical data, currency conversion, and time-series features.</li>
+          </ul>
+        </li>
+        <li><strong>Documentation</strong>: <a target="_new" rel="noopener">https://exchangerate.host/#/</a></li>
+      </ul>
+      <h3>4. <strong>ExchangeRate-API</strong></h3>
+      <ul>
+        <li>
+          <strong>API URL</strong>:
+          <a href="https://www.exchangerate-api.com/" target="_new" rel="noopener">https://www.exchangerate-api.com/</a>
+        </li>
+        <li><strong>Free Plan</strong>: Access to real-time exchange rate data for 150+ currencies.</li>
+        <li>
+          <strong>Key Features</strong>:
+          <ul>
+            <li>Free tier allows 1,500 requests per month.</li>
+            <li>Supports 150+ currencies.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Documentation</strong>: <a target="_new" rel="noopener">https://www.exchangerate-api.com/docs</a>
+        </li>
+      </ul>
+      <h3>5. <strong>Forex-Rate API</strong></h3>
+      <ul>
+        <li><strong>API URL</strong>: <a target="_new" rel="noopener">https://forex-rate-api.p.rapidapi.com/</a></li>
+        <li><strong>Free Plan</strong>: Limited free requests via RapidAPI.</li>
+        <li>
+          <strong>Key Features</strong>:
+          <ul>
+            <li>Provides real-time foreign exchange rates.</li>
+            <li>Free tier available via RapidAPI platform.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Documentation</strong>:
+          <a target="_new" rel="noopener">https://rapidapi.com/coinlayer/api/forex-rate-api</a>
+        </li>
+      </ul>
+      <hr />
+      <p>
+        These APIs offer free plans with various request limits and features, which should be enough for a small-scale
+        currency converter project. For most, you’ll need to sign up to get an API key to use the service. Let me know
+        if you'd like help integrating one of these APIs into your project!
+      </p>
     </div>
   </body>
 </html>

@@ -1,3 +1,9 @@
 body {
-  background-color: antiquewhite;
+  background: rgb(185, 223, 255);
+  background: linear-gradient(90deg, rgba(185, 223, 255, 1) 0%, rgba(255, 244, 210, 1) 100%);
+}
+
+.small,
+small {
+  font-size: 0.5em;
 }

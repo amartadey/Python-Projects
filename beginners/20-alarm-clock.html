@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -20,6 +21,119 @@
         <a href="21-simple-stopwatch.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">20. Alarm Clock <small>Beginner Projects</small></h1>
+
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li><strong>Input</strong>: Allow the user to set a specific time for the alarm (hours and minutes).</li>
+        <li>
+          <strong>Alarm Logic</strong>: Implement logic to trigger the alarm when the current system time matches the
+          user-set time.
+        </li>
+        <li>
+          <strong>Output</strong>: Notify the user that the alarm has gone off (e.g., by playing a sound or displaying a
+          message).
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>User Input</strong>:</p>
+          <ul>
+            <li>
+              Prompt the user to input the time they want the alarm to go off (in a specific format like HH
+              <div> </div>
+              ).
+            </li>
+            <li>Optionally, allow the user to set multiple alarms.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Alarm Logic</strong>:</p>
+          <ul>
+            <li>Continuously check the current system time.</li>
+            <li>When the current time matches the user-set time, trigger the alarm.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Display Notification</strong>:</p>
+          <ul>
+            <li>Notify the user that the alarm has gone off by showing a message, playing a sound, or both.</li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <strong>Input Validation</strong>:
+          <ul>
+            <li>
+              Ensure the user inputs the time in the correct format (e.g., HH
+              <div> </div>
+              ).
+            </li>
+            <li>Handle invalid inputs (e.g., non-numeric values, wrong time format).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Edge Cases</strong>:
+          <ul>
+            <li>
+              Handle situations where the alarm time is set in the past (e.g., notify the user or reset for the next
+              day).
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Snooze Function</strong>:</p>
+          <ul>
+            <li>
+              Implement a snooze feature that allows the user to delay the alarm for a few minutes after it goes off.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Multiple Alarms</strong>:</p>
+          <ul>
+            <li>Allow the user to set more than one alarm.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Custom Alarm Sounds</strong>:</p>
+          <ul>
+            <li>Allow the user to choose or upload a custom sound for the alarm.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Repeat Alarms</strong>:</p>
+          <ul>
+            <li>Implement an option for recurring alarms (e.g., daily alarms).</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>User Interface</strong>:</p>
+          <ul>
+            <li>
+              Build a graphical user interface (GUI) using <code>tkinter</code> or another framework to make setting
+              alarms easier and more visually appealing.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will help you practice:</p>
+      <ul>
+        <li>Working with time and date in Python using modules like <code>time</code> and <code>datetime</code>.</li>
+        <li>Input validation for correct time format handling.</li>
+        <li>Looping and conditional logic to match the current time with the alarm time.</li>
+        <li>Optional: building GUIs or integrating sounds for more advanced features.</li>
+      </ul>
     </div>
   </body>
 </html>

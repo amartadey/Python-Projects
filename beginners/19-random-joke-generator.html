@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -20,6 +21,98 @@
         <a href="20-alarm-clock.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">19. Random Joke Generator <small>Beginner Projects</small></h1>
+
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li><strong>Input</strong>: The user can request a random joke.</li>
+        <li><strong>Joke Source</strong>: Store a set of jokes (either predefined or fetched from an external API).</li>
+        <li><strong>Output</strong>: Display the joke to the user.</li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>Joke Source</strong>:</p>
+          <ul>
+            <li>Predefine a list of jokes in the program or connect to an external joke API to fetch random jokes.</li>
+            <li>Ensure the list or API contains a variety of jokes to make the output random and engaging.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>User Interaction</strong>:</p>
+          <ul>
+            <li>Allow the user to request a joke by input (e.g., pressing a key or entering a command).</li>
+            <li>Fetch a random joke from the predefined list or API.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Display Result</strong>:</p>
+          <ul>
+            <li>Print or display the joke to the user in a readable and fun way.</li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Joke List/Source</strong>:</p>
+          <ul>
+            <li>Ensure that the joke list is populated and doesn’t result in an empty response.</li>
+            <li>If fetching from an API, handle cases where the API is unreachable or responds with an error.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Input Validation</strong>:</p>
+          <ul>
+            <li>Validate user input to make sure the correct command is used to request a joke (if applicable).</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Multiple Joke Categories</strong>:</p>
+          <ul>
+            <li>
+              Allow the user to choose different joke categories (e.g., programming jokes, dad jokes, animal jokes).
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>User Choice</strong>:</p>
+          <ul>
+            <li>
+              Provide the option for the user to request another joke after the first one is displayed or to exit the
+              program.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>API Integration</strong>:</p>
+          <ul>
+            <li>
+              If using an API, allow the user to fetch jokes from live sources like the "Official Joke API" or similar.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Save Jokes</strong>:</p>
+          <ul>
+            <li>Give the option to save favorite jokes to a file or allow users to view recently displayed jokes.</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will help you practice:</p>
+      <ul>
+        <li>Random selection of elements from a list</li>
+        <li>Fetching data from APIs (if applicable)</li>
+        <li>Handling user input and output</li>
+        <li>Working with loops and conditionals to manage multiple joke requests</li>
+      </ul>
     </div>
   </body>
 </html>

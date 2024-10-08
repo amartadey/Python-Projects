@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -19,7 +20,109 @@
         <a href="../index.html" class="link-success">HOME</a>
         <a href="16-simple-mad-libs-generator.html" class="link-secondary">Next Project</a>
       </div>
-      <h1 class="py-5">15. Hangman Game <small>Beginner Projects</small></h1>
+      <h1 class="py-5">15. Math Flash Cards <small>Beginner Projects</small></h1>
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li>
+          <strong>Input</strong>: The program should generate random math problems (e.g., addition, subtraction,
+          multiplication, division) and ask the user to solve them.
+        </li>
+        <li><strong>Problem Generation</strong>: Implement logic to generate random numbers for math problems.</li>
+        <li><strong>Output</strong>: Show whether the user's answer is correct or incorrect.</li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>Problem Generation</strong>:</p>
+          <ul>
+            <li>Randomly generate two numbers.</li>
+            <li>Randomly select a math operation (e.g., addition, subtraction, multiplication, or division).</li>
+            <li>Display the generated problem to the user.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>User Input</strong>:</p>
+          <ul>
+            <li>Prompt the user to enter the answer to the math problem.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Check Answer</strong>:</p>
+          <ul>
+            <li>Compare the user's input with the correct answer.</li>
+            <li>Display feedback (correct or incorrect) based on the user's response.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Display Result</strong>:</p>
+          <ul>
+            <li>Inform the user whether their answer was right or wrong.</li>
+            <li>Optionally, display the correct answer if the user was incorrect.</li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <strong>Input Validation</strong>:
+          <ul>
+            <li>Ensure the user inputs a valid number for the answer (handle non-numeric inputs).</li>
+            <li>Handle division by zero scenarios gracefully when generating division problems.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Feedback</strong>:
+          <ul>
+            <li>Provide immediate feedback to the user based on their answer.</li>
+            <li>Optionally give hints or explanations if the user answers incorrectly.</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Difficulty Levels</strong>:</p>
+          <ul>
+            <li>
+              Allow the user to select a difficulty level (easy, medium, hard) that affects the range of numbers used in
+              problems.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Multiple Rounds</strong>:</p>
+          <ul>
+            <li>
+              Allow the user to solve a series of problems in one session, keeping track of their score (number of
+              correct answers).
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Timer</strong>:</p>
+          <ul>
+            <li>Implement a timer to limit how long the user has to solve each problem.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Scoreboard</strong>:</p>
+          <ul>
+            <li>Keep track of the user's score and display it after a set of problems or at the end of the session.</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will give you practice with:</p>
+      <ul>
+        <li>Generating random numbers and selecting random math operations.</li>
+        <li>User input handling and validation.</li>
+        <li>Conditional logic to compare the user’s answer with the correct answer.</li>
+        <li>Optionally, implementing timers and score-tracking mechanisms.</li>
+      </ul>
     </div>
   </body>
 </html>

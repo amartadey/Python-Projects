@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -20,6 +21,125 @@
         <a href="13-basic-contact-book.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">12. Temperature Converter (Celsius to Fahrenheit) <small>Beginner Projects</small></h1>
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li><strong>Input</strong>: Allow the user to enter a temperature value in Celsius.</li>
+        <li><strong>Conversion Logic</strong>: Implement the formula for converting Celsius to Fahrenheit.</li>
+        <li><strong>Output</strong>: Display the converted temperature in Fahrenheit to the user.</li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>User Input</strong>:</p>
+          <ul>
+            <li>Prompt the user to enter a temperature value in Celsius.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Conversion Logic</strong>:</p>
+          <ul>
+            <li>
+              Apply the conversion formula:
+              <ul>
+                <li>
+                  <span class="katex"
+                    ><span class="katex-mathml"> <img src="project12_1.png" alt="" /> </span
+                    ><span class="katex-html" aria-hidden="true"
+                      ><span class="base"
+                        ><span class="mord text"><span class="mord">Fahrenheit</span></span
+                        ><span class="mrel">=</span></span
+                      ><span class="base"
+                        ><span class="mopen">(</span><span class="mord text"><span class="mord">Celsius</span></span
+                        ><span class="mbin">×</span></span
+                      ><span class="base"
+                        ><span class="mord"
+                          ><span class="mfrac"
+                            ><span class="vlist-t vlist-t2"
+                              ><span class="vlist-r"
+                                ><span class="vlist"
+                                  ><span class="sizing reset-size6 size3 mtight"
+                                    ><span class="mord mtight">(9/</span></span
+                                  ><span class="sizing reset-size6 size3 mtight"
+                                    ><span class="mord mtight">5)</span></span
+                                  ></span
+                                ><span class="vlist-s">​</span></span
+                              ></span
+                            ></span
+                          ></span
+                        ><span class="mclose">)</span><span class="mbin">+</span></span
+                      ><span class="base"><span class="mord">32</span></span></span
+                    ></span
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>Ensure that the user understands what unit they are converting from and to.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Display Result</strong>:</p>
+          <ul>
+            <li>
+              Present the converted temperature back to the user in a clear and informative format, indicating the
+              original temperature and the converted value.
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <strong>Input Validation</strong>:
+          <ul>
+            <li>Ensure the user enters a valid number (i.e., handle non-numeric inputs gracefully).</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Feedback</strong>:
+          <ul>
+            <li>Provide clear messages if the user inputs invalid data, including non-numeric values.</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Multiple Conversions</strong>:</p>
+          <ul>
+            <li>Allow the user to perform multiple conversions in a single session without restarting the program.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Exit Option</strong>:</p>
+          <ul>
+            <li>Provide a clear way for the user to exit the program when they are done converting temperatures.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Extended Functionality</strong>:</p>
+          <ul>
+            <li>
+              Consider adding additional conversions, such as Fahrenheit to Celsius, to enhance the utility of the
+              application.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will give you practice with:</p>
+      <ul>
+        <li>User input handling</li>
+        <li>Simple mathematical operations for conversion</li>
+        <li>Conditionals to manage conversion logic</li>
+        <li>Loops to facilitate multiple conversions</li>
+        <li>Error handling for robust user interaction</li>
+      </ul>
     </div>
   </body>
+
+  <style></style>
 </html>

@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -20,6 +21,112 @@
         <a href="18-password-generator.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">17. BMI Calculator <small>Beginner Projects</small></h1>
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li>
+          <strong>Input</strong>: Allow the user to enter their weight (in kilograms or pounds) and height (in meters or
+          feet/inches).
+        </li>
+        <li>
+          <strong>BMI Calculation Logic</strong>: Implement the Body Mass Index (BMI) formula:
+          <ul>
+            <li>BMI = weight (kg) / [height (m)]²</li>
+            <li>If the weight is provided in pounds and height in feet/inches, add appropriate conversion formulas.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Output</strong>: Display the calculated BMI to the user and indicate the BMI category (underweight,
+          normal weight, overweight, obese).
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>User Input</strong>:</p>
+          <ul>
+            <li>Ask the user to input their weight (specify the unit as kilograms or pounds).</li>
+            <li>Ask the user to input their height (specify the unit as meters or feet/inches).</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>BMI Calculation</strong>:</p>
+          <ul>
+            <li>
+              If the inputs are in pounds/feet, convert them to kilograms and meters using appropriate conversion
+              factors.
+            </li>
+            <li>Apply the BMI formula to calculate the user’s BMI.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Display Result</strong>:</p>
+          <ul>
+            <li>
+              Show the user their BMI along with a corresponding category:
+              <ul>
+                <li>Underweight (BMI &lt; 18.5)</li>
+                <li>Normal weight (BMI 18.5 - 24.9)</li>
+                <li>Overweight (BMI 25 - 29.9)</li>
+                <li>Obese (BMI ≥ 30)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Input Validation</strong>:</p>
+          <ul>
+            <li>Ensure the user enters valid numeric values for both weight and height.</li>
+            <li>Check for any negative or zero values (which are invalid for weight and height).</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Feedback</strong>:</p>
+          <ul>
+            <li>
+              Provide clear messages if the user enters invalid data (e.g., non-numeric input, unrealistic values).
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Unit Choice</strong>:</p>
+          <ul>
+            <li>
+              Allow the user to select whether they want to use metric (kg, meters) or imperial (pounds, feet/inches)
+              units.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Multiple Calculations</strong>:</p>
+          <ul>
+            <li>Give the user the option to calculate BMI multiple times without exiting the program.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Health Tips</strong>:</p>
+          <ul>
+            <li>Based on the BMI category, provide basic health advice or links to resources.</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will give you practice with:</p>
+      <ul>
+        <li>Using mathematical formulas in Python</li>
+        <li>User input and conditionals to manage different unit types</li>
+        <li>Error handling for input validation</li>
+        <li>Output formatting to display results clearly</li>
+      </ul>
     </div>
   </body>
 </html>

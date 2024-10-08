@@ -10,7 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="../style.css" /></head>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
 
   <body>
     <div class="container py-5">
@@ -20,6 +21,109 @@
         <a href="14-currency-converter.html" class="link-secondary">Next Project</a>
       </div>
       <h1 class="py-5">13. Basic Contact Book <small>Beginner Projects</small></h1>
+      <h3><strong>1. Basic Features</strong></h3>
+      <ul>
+        <li>
+          <strong>Add Contacts</strong>: Allow the user to add new contacts with details like name, phone number, and
+          email.
+        </li>
+        <li><strong>View Contacts</strong>: Display a list of all stored contacts.</li>
+        <li><strong>Search Contacts</strong>: Let the user search for a contact by name.</li>
+        <li><strong>Delete Contacts</strong>: Allow the user to delete a contact from the contact book.</li>
+      </ul>
+      <hr />
+      <h3><strong>2. Workflow</strong></h3>
+      <ol>
+        <li>
+          <p><strong>Adding Contacts</strong>:</p>
+          <ul>
+            <li>Prompt the user to input contact details such as name, phone number, and email.</li>
+            <li>Store these details in a structured way (e.g., using a dictionary or list).</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Viewing Contacts</strong>:</p>
+          <ul>
+            <li>Provide an option for the user to view all saved contacts.</li>
+            <li>Display the contact information in a clean, readable format.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Searching Contacts</strong>:</p>
+          <ul>
+            <li>Allow the user to input a contact name to search for.</li>
+            <li>Display the details of the matching contact, if found.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Deleting Contacts</strong>:</p>
+          <ul>
+            <li>Let the user delete a contact by specifying the name.</li>
+            <li>Confirm before permanently removing the contact.</li>
+          </ul>
+        </li>
+      </ol>
+      <hr />
+      <h3><strong>3. Error Handling</strong></h3>
+      <ul>
+        <li>
+          <p><strong>Input Validation</strong>:</p>
+          <ul>
+            <li>Ensure valid input for contact details, such as checking for valid phone numbers and email formats.</li>
+            <li>Prevent duplicate contacts by checking if the contact already exists.</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Feedback</strong>:</p>
+          <ul>
+            <li>Inform the user if a contact they are searching for or trying to delete is not found.</li>
+            <li>Provide clear error messages for invalid inputs (e.g., empty names or incorrect phone numbers).</li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>4. Optional Features</strong></h3>
+      <ul>
+        <li>
+          <strong>Edit Contacts</strong>:
+          <ul>
+            <li>Provide functionality for the user to update or edit a contact’s details.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Save to File</strong>:
+          <ul>
+            <li>
+              Allow users to save their contact book to a file and load it back when the program starts, so the contact
+              book persists between sessions.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Sort Contacts</strong>:
+          <ul>
+            <li>Implement sorting (by name, phone number, etc.) to display contacts in a sorted manner.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Interactive Menu</strong>:
+          <ul>
+            <li>
+              Create a simple interactive menu to navigate between adding, viewing, searching, deleting, and exiting the
+              program.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <hr />
+      <h3><strong>5. Learning Outcomes</strong></h3>
+      <p>This project will give you practice with:</p>
+      <ul>
+        <li>Data structures (storing contacts in dictionaries or lists)</li>
+        <li>Functions for handling different operations (add, view, delete, search)</li>
+        <li>File handling (optional) to save and load contacts</li>
+        <li>Error handling and validation of user input</li>
+      </ul>
     </div>
   </body>
 </html>
